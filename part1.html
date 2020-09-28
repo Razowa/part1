@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        p {
+            font-family: verdana;
+            font-size: 20px;
+            color: white;
+        }
+
+
+        * {
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        body {
+            background-image: url('https://api.time.com/wp-content/uploads/2019/11/top-10-nonfiction-2019.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+
+
+
+<body>
+
+    <h1>Registration form</h1>
+    <p>Fill up all the box</p>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="books">Enter your books choice:</label>
+        <select id="Books " name="Books">
+            <option value="History">History</option>
+            <option value="Travel">Travel</option>
+            <option value="Motivational">motivational</option>
+
+        </select><br><br>
+
+
+        <input type="submit" value="submit">
+
+
+
+    </form>
+
+
+</body>
+
+</html>
